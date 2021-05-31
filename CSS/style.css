@@ -1,13 +1,29 @@
-html,
+
 body {
+    background: linear-gradient(to right,#003399 0%,#9900ff 100%);
     height: 100%;
     margin: 0;
-    padding: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
 
-#background {
-    height: 100%;
-    width: 100%;
-    background-image:url("../Images/background_image.jpg"); 
+#canvas,#text{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
-} 
+#text {
+    min-height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    color: rgb(248,252,251);
+    opacity: 75%;
+    text-transform: uppercase;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
