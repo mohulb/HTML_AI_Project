@@ -6,6 +6,13 @@ body {
     font-family: 'Baloo Tammudu 2', cursive;
 }
 
+
+#sub_body_1 {
+    background: linear-gradient(to right,#003399 0%,#9900ff 100%);
+    height: 100%;
+    margin: 0;
+}
+
 #canvas,#text{
     position: absolute;
     display: block;
@@ -26,4 +33,19 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+#header {
+    background-color: transparent;
+    overflow: hidden;
+
+}
+
+#header a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
 }
