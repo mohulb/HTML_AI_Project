@@ -10,7 +10,6 @@ body {
 #sub_body_1 #sub_body_2
 #sub_body_3 #sub_body_4
 #sub_body_5 {
-    background: linear-gradient(to right,#003399 0%,#9900ff 100%);
     height: 100%;
     margin: 0;
 }
@@ -39,33 +38,38 @@ body {
 
 #header {
     background-color: transparent;
-    overflow: hidden;
-
+    top: 100px;
+    display: flex;
+    float: right;
+    z-index: 1;
 }
 
 #header a {
-    float: right;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    z-index: 2;
+} 
+
+#header a:hover {
+    background-color: #ffffff5d;
+    color: #000000;
 }
 
 #p_background_1 #p_background_2 
 #p_background_3 #p_background_4
 #p_background_5 {
     background: linear-gradient(to right,#003399 0%,#9900ff 100%);
-    position: absolute;
-    height: 100%;   
+}
+
+#linktest {
+    z-index: 1;
 }
 
 .whatisaiimage {
     height: 350px;
     width: 350px;
-    display: block;
-    position: absolute;
-    align-items: center;
 }
 
 
