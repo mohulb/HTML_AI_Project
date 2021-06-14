@@ -74,18 +74,34 @@ body {
 
 
 .domainimages {
- height: 450px;
- width: 4
-50px;
+ height: 350px;
+ width: 350px;
 }
 
 .advantagesimage {
+    height: 250px;
+    width: 350px;
+}
+
+.disadvantagesimage {
     height: 450px;
     width: 550px;
 }
 
-.disadvantagesimage {
-    height: 350px;
-    width: 450px;
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: white;
 }
-/* .domains_of_aiimage .advantagesofaiimage .disadvantagesofai */
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+ul li::before {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 1em;
+    margin-left: -1em;
+}
